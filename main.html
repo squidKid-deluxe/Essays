@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				color:white;
+				background-color:black;
+			}
+
+			.column {
+		  	    float: left;
+			    width: 22.5%;
+			    padding: 12px;
+			    border-width: 2px;
+			    border: solid red 5px;
+			}
+
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		</style>
+
+		<title>
+			My Essays
+		</title>
+	</head>
+
+	<body>
+
+		<center>
+			<h1>My Essays and Stories</h1>
+			<p>Click a picture or title to view the essay or story!</p>
+
+			<div class="row">
+				<div class="column" style="background-color:#555;" onclick="hound()">
+					<h2>The Hound</h2>
+					<img src="http://cdn.desktopwallpapers4.me/media/thumbs_400x250/4/34590.jpg" width=300px></img>
+				</div>
+				<div class="column" style="background-color:#555;" onclick="duck()">
+					<h2>Ducklings</h2>
+					<img src="https://www.tampabay.com/resizer/5iQg1BQS28XwH-IfApcSDSnOq7g=/1600x900/smart/arc-anglerfish-arc2-prod-tbt.s3.amazonaws.com/public/QLLPSWGH2MI6TJTLIBWI6S7HAY.jpg" width=300px height=188px></img>
+				</div>
+				<div class="column" style="background-color:#555;" onclick="butter()">
+					<h2>Making Butter</h2>
+					<img src="https://revolutionarypie.files.wordpress.com/2013/09/img_2150.jpg?w=584&h=389" width=300px height=188px></img>
+				</div>
+				<div class="column" style="background-color:#555;" onclick="worms()">
+					<h2>Rasing Worms</h2>
+					<img src="https://s.yimg.com/ny/api/res/1.2/UUjKBAhHk90Q9PBLf3eF6A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MC4zNjcxODc1/https://s.yimg.com/uu/api/res/1.2/.SDmmAhIN4Lcn5aU1i2c_A--~B/aD00Mjc7dz02NDA7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en-US/homerun/digital_trends_973/5dd2d01d014f0dbb86a3940740c2d16d" width=300px height=188px></img>
+				</div>
+			</div>
+		</center>
+
+		<script>
+			function hound() {
+				window.location.href = "hound.htm";
+			}
+
+			function duck() {
+				window.location.href = "ducks.html";
+			}
+
+			function butter() {
+				window.location.href = "butter.html";
+			}
+
+			function worms() {
+				window.location.href = "worms.html";
+			}
+		</script>
+
+	</body>
+</html>
