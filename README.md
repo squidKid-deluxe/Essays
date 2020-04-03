@@ -7,12 +7,16 @@ Dependencies:
 
 main.html:
 - Javascript, CSS, and HTML
-hound.htm:
+
+hound.html:
 - Javascript, CSS, and HTML
+
 butter.html:
 - Javascript, CSS, and HTML
+
 worms.html:
 - Javascript, CSS, and HTML
+
 ducks.html:
 - Javascript, CSS, and HTML
 
